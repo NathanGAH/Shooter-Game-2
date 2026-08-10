@@ -4,36 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shooter Game 2</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #111111;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      overflow: hidden;
-    }
-    iframe {
-      border: none;
-      width: 482px;
-      height: 412px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-      border-radius: 8px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <iframe 
-    src="https://turbowarp.org/embed.html?auto-play=true&addons=pause&project_url=https://nathangah.github.io/Shooter-Game-2/ShooterGame2.sb3"
-    allowtransparency="true" 
-    allowfullscreen>
-  </iframe>
+  <div class="wrapper">
+    <div class="responsive-iframe-container">
+      <iframe id="turbowarp-player" allowtransparency="true" allowfullscreen></iframe>
+    </div>
+  </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
