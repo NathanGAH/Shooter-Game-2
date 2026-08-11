@@ -13,6 +13,7 @@ body {
   width: 90%;
   max-width: 960px;
   text-align: center;
+  margin: 20px 0;
 }
 
 .responsive-iframe-container {
@@ -27,4 +28,37 @@ body {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* --- Details Section Styling --- */
+.details-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.info-panel {
+  flex: 1; /* Automatically expands to fill available flex space */
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.info-panel h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #4c97ff;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+}
+
+.info-panel p {
+  white-space: pre-wrap; /* Preserves newlines and spaces from .txt files */
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+  margin-bottom: 0;
 }
