@@ -9,9 +9,15 @@ enter for kaboom (cool down 15s)
 
 ---- ENEMY TYPES ----
 Regular Enemy; follows you, deals 1 damage, dies in one hit.
-Boss Enemy; follows you, deals 999999999 damage (crashes your game), dies in some amount of hits
+
+Boss Enemy; follows you, deals 999999999 damage (crashes your game), dies in some amount of hits.
+
 Regular Friend; follows you, gives 1 health, dies in one hit.
+
 Super Friend; follows you, gives max health, does not die except from kabooms.
+
 (+); circles around you (enter), gives 1 health on touching you or on shot, dies in one hit.
+
 (-); circles around you (exit), deals 1 damage on touching you or on shot, dies in one hit.
+
 EIS (Everyone In Shock); just bounces around you, doesnt do anything good or bad.
