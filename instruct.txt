@@ -3,8 +3,9 @@
 WASD or Arrow keys to move
 Space to shoot
 H for shield (cool down 30s)
-M for boomerang thingy (cool down 5s)
+M for boomerang (cool down 5s)
 L for bouncy sawblade (cool down 30s)
+P for auto-targeting bullet (cool down 0s; can only be shot 1 time)
 enter for kaboom (cool down 15s)
 
 ---- ENEMY TYPES ----
@@ -21,3 +22,14 @@ Super Friend; follows you, gives max health, does not die except from kabooms.
 (-); circles around you (exit), deals 1 damage on touching you or on shot, dies in one hit.
 
 EIS (Everyone In Shock); just bounces around you, doesnt do anything good or bad.
+
+---- BULLET TYPES ----
+Regular Bullet; travels in one direction, dies when it touches an enemy or the edge.
+
+Shield; follows the player, still deals damage like a bullet. (Ticks alive: ~650)
+
+Boomerang; launches in the direction of the player, and comes back after touching the edge.
+
+Bouncy Sawblade; bounces, is a bullet. (Ticks alive: 600)
+
+Auto-Targeting Bullet; targets a random enemy until it dies, then chooses another random enemy to target. (Ticks alive: Infinity)

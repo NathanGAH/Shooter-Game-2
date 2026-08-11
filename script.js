@@ -4,7 +4,7 @@ const playerSettings = {
   "auto-start": false,
   "addons": ["pause", "gamepad", "mute-project"].join(","),
   "settings-button": true,
-  "interpolate": true,
+  "interpolate": true, 
   "fps": 60,
   "clones": "Infinity",
   "project_url": "https://raw.githubusercontent.com/nathangah/Shooter-Game-2/main/ShooterGame2.sb3"
