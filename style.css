@@ -61,4 +61,7 @@ body {
   line-height: 1.5;
   color: #ccc;
   margin-bottom: 0;
+  max-height: 180px;   /* Sets the maximum box height before scrolling */
+  overflow-y: auto;    /* Adds a vertical scrollbar when text overflows */
+  padding-right: 6px;
 }
